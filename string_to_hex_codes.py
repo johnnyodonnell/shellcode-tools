@@ -1,5 +1,5 @@
 
-string = "\\test.exe\x00"
+string = "ws2_32.dll"
 
 for i in range(0, len(string), 4):
     part = string[i:(i+4)]
